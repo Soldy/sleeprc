@@ -1,0 +1,22 @@
+{
+  "name": "sleeprc",
+  "version": "0.0.0-alpha",
+  "description": " Atomic sleep for testing",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soldy/nanoTest"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "keywords": [
+  ],
+  "author": "Soldy <npmjs@gidigi.com> (http://gidigi.com)",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/Soldy/nanoTest/issues"
+  }
+}
