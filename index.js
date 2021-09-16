@@ -7,14 +7,12 @@ const nothing = new Int32Array(
 
 
 exports.sleep = function (time) {
-    if(
-        (typeof time !== 'number')
-    )
-        return false;
+    if(!Number.isInteger(time))
+        throw TypeError('time is not an integer');
     Atomics.wait(
-        nothing, 
-        0, 
-        0, 
+        nothing,
+        0,
+        0,
         Math.abs(time)
     );
 };
